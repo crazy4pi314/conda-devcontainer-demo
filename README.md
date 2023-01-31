@@ -1,15 +1,15 @@
 # Fast Conda-based Dev Containers + Codespaces
 
-This is a template reposotory that can be used to start with a minimal [Dev Container]() setup that provides [conda]() and [mamba](https://github.com/mamba-org/mamba) for setting up Python environments.
+This is a template reposotory that can be used to start with a minimal [Dev Container](https://containers.dev/) setup that provides [conda](https://github.com/conda/conda) and [mamba](https://github.com/mamba-org/mamba) for setting up Python environments.
 This repo contains a sample Conda environment file ([environment.yml](environment.yml)), demo Jupyter notebook, and Dev Container configuration files that describe how a containerized development can be built for the repo.
-These configuration files work for both local Dev Containers as well as [Codespaces](), a GitHub-hosted cloud environment.
+These configuration files work for both local Dev Containers as well as [Codespaces](https://github.com/features/codespaces), a GitHub-hosted cloud environment.
 
 The Docker setup for the Dev Container starts with a miniconda image that then will install whatever conda environment file you have at the root of the repo.
 There are some additional configuration options in the comments of the [Docker](.devcontainer/Dockerfile) and [devcontainer.json](.devcontainer/devcontainer.json) that have some examples of other steps you may want to add to your Dev Container, like what VS Code extensions to install when the container is launched.
 
 ## How to use this template
 
-0. Create a repo of your own by cloning this template to your GitHub account.
+0. Create a repo of your own by [creating a repo from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to your GitHub account.
 
 ### Work on your computer (requires Docker and VS Code installed)
 
